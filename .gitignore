@@ -47,3 +47,29 @@ yarn-error.log*
 *.db
 *.sql
 *.sql-journal
+
+# Clacky-related configuration
+.1024*
+!.1024
+
+# Language-specific files
+*.log
+*.tmp
+*.bak
+*.old
+*.pid
+*.seed
+*.pid.lock
+
+# Framework-related files
+*.dll
+*.swp
+.paas-unit-*
+core.*
+.breakpoints
+
+# Package manager directories
+node_modules/
+.pnpm-store/
+dist/
+vendor/
